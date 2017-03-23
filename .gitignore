@@ -1,0 +1,27 @@
+# jeecms8.1前台页面不显示图片
+
+只说本人遇到的情况，如下图，项目已经部署好，没有错误 
+
+
+![这里写图片描述](http://img.blog.csdn.net/20170323145604291?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+**但是前台页面却显示不了图片，如图：**
+
+![这里写图片描述](http://img.blog.csdn.net/20170323145836992?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![这里写图片描述](http://img.blog.csdn.net/20170323150049016?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+**如果你也有这样的问题可以这样试试。在后台内容里多媒体路径前加上“/jeecms”，或者点浏览来选择。**
+
+![这里写图片描述](http://img.blog.csdn.net/20170323151444300?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+
+**内容里的图片要在后台再插入一次**
+![这里写图片描述](http://img.blog.csdn.net/20170323151837425?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+
+**最后，前台图片与视频如愿显示出来**
+
+![这里写图片描述](http://img.blog.csdn.net/20170323152316204?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![这里写图片描述](http://img.blog.csdn.net/20170323152334063?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmV5b29kMTk4Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
